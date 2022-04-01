@@ -15,7 +15,7 @@ Scheduling outing app. Users can set dates that they are available and app will 
 - **Category:** Social Networking
 - **Mobile:** This app would be primarily developed for mobile but would perhaps be just as viable on a computer in the future.
 - **Story:** Find the time and day that everyone/most people are available for an event.
-- **Market:** Any individual could choose to use this app.
+- **Market:** Any individual could choose to use this app. Can specifically be targeted to young adults who have responsibilties such as school, work, etc. that may make it difficult to align schedules with others around them.
 - **Habit:** This app could be used as often or unoften as the user wanted depending on event frequency.
 - **Scope:** Start with only schduleing feature. May expanded to a somewhat larger scope including Chat system in the future version.
 
