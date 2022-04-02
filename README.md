@@ -85,10 +85,19 @@ Scheduling outing app. Users can set dates that they are available and app will 
 
 ### [BONUS] Interactive Prototype
 
-## Schema 
-[This section will be completed in Unit 9]
-### Models
-[Add table of models]
+## Schema //TODO
+### Events
+| Property         | Type          |Description                                     |
+| ---------------- | ------------- | ---------------------------------------------- |
+| objectId         | Int           |unique id for each event (default field)        |
+| Events Name      | String        |name of the event                               |
+| Events Details   | String        |description of the event                        |
+| Events Location  | String        |location of the event                           |
+| Events Time      | DateTime      |when this event happens                         |
+|Author            |Pointer to User|who create this event                           |
+|Participations    |Pointer to User|who participate this event                      |
+|createdAt	       |DateTime	     |date when post is created (default field)       |
+|updatedAt	       |DateTime    	  |date when post is last updated (default field)  |
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
