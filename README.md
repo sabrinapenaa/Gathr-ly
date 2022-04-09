@@ -75,3 +75,6 @@ Scheduling outing app. Users can set dates that they are available and app will 
 * Create event => google maps screen
 * Google maps screen => create event
 * Create event => event list
+*
+**Wireframe** 
+<img src="https://imgur.com/a/Vc3N25r" width="500"/>
