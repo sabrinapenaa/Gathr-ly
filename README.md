@@ -92,7 +92,7 @@ Scheduling outing app. Users can set dates that they are available and app will 
 | Events Location  | String        |location of the event                           |
 | Events Time      | DateTime      |when this event happens                         |
 |Author            |Pointer to User|who create this event                           |
-|Participations    |Pointer to User|who participate this event                      |
+|Participants   |Pointer to User|who participate this event                      |
 |createdAt	       |DateTime	     |date when post is created (default field)       |
 |updatedAt	       |DateTime    	  |date when post is last updated (default field)  |
 | datesFree        | DateTime        | date when user is available; will be used to calcualte event time|
