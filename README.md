@@ -77,4 +77,4 @@ Scheduling outing app. Users can set dates that they are available and app will 
 * Create event => event list
 *
 **Wireframe** 
-![Gathr.ly app wireframe](https://imgur.com/a/Vc3N25r.jpg )
+[![Gathr-ly-wireframes.png](https://i.postimg.cc/pX3jGJZ9/Gathr-ly-wireframes.png)](https://postimg.cc/sv911Sby)
