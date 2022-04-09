@@ -95,18 +95,18 @@ Scheduling outing app. Users can set dates that they are available and app will 
 
 <b> List of network requests by screen </b>
 
-  -Event Screen
-    -(Read/GET) Query all events where user is involved in
-    -(Create/POST) Create dates you are free
-  -New event screen
-    -(Create/POST) Create a new event 
-    -(Create/POST) Create event details 
-   -Friends screen
-      -(Read/GET) Query all people user is friends with 
-      -(Read/GET) Query all people that match user's name and user's id
-   -Profile Screen
-       -(Read/GET) Query logged in user object
-       -(Update/PUT) Update user profile image
+  * Event Screen
+    * (Read/GET) Query all events where user is involved in
+    * (Create/POST) Create dates you are free
+  * New event screen
+    * (Create/POST) Create a new event 
+    * (Create/POST) Create event details 
+   * Friends screen
+      * Read/GET) Query all people user is friends with 
+      * (Read/GET) Query all people that match user's name and user's id
+   * Profile Screen
+     * (Read/GET) Query logged in user object
+     * (Update/PUT) Update user profile image
     
   
 
