@@ -76,5 +76,37 @@ Scheduling outing app. Users can set dates that they are available and app will 
 * Google maps screen => create event
 * Create event => event list
 *
-**Wireframe** 
+### 4. Wirerame
 [![Gathr-ly-wireframes.png](https://i.postimg.cc/pX3jGJZ9/Gathr-ly-wireframes.png)](https://postimg.cc/sv911Sby)
+
+### 5. Schema
+
+**Models**
+| Property      | Type          | Description    |
+| ------------- | ------------- |  ------------- |
+| chosenEventDate  | DateTime  | chosen date for event   |
+| eventDetails  | String  |  description of chosen event   |
+| eventName       | String   | event name by user |
+| datesFree | DateTime  | day user is available; will be used to calcualte chosenEventDate |
+| userId  | String | unique id that identifies users |
+
+
+**Networking**
+
+<b> List of network requests by screen </b>
+
+  -Event Screen
+    -(Read/GET) Query all events where user is involved in
+    -(Create/POST) Create dates you are free
+  -New event screen
+    -(Create/POST) Create a new event 
+    -(Create/POST) Create event details 
+   -Friends screen
+      -(Read/GET) Query all people user is friends with 
+      -(Read/GET) Query all people that match user's name and user's id
+   -Profile Screen
+       -(Read/GET) Query logged in user object
+       -(Update/PUT) Update user profile image
+    
+  
+
