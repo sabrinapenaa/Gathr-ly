@@ -4,8 +4,9 @@ Unit 8: Group Milestone
 
 ## Table of Contents
 1. [Overview](#Overview)
-1. [Product Spec](#Product-Spec)
-1. [Wireframes](#Wireframes)
+2. [Product Spec](#Product-Spec)
+3. [Wireframes](#Wireframes)
+4. [Schema] (#Schema)
 
 ## Overview
 ### Description
@@ -76,13 +77,13 @@ Scheduling outing app. Users can set dates that they are available and app will 
 * Google maps screen => create event
 * Create event => event list
 *
-### 4. Wirerame
+## 4. Wirerames
 [![Gathr-ly-wireframes.png](https://i.postimg.cc/pX3jGJZ9/Gathr-ly-wireframes.png)](https://postimg.cc/sv911Sby)
 
-### 5. Schema
+## 5. Schema
 
 **Models**
-## Schema //TODO
+
 ### Events
 | Property         | Type          |Description                                     |
 | ---------------- | ------------- | ---------------------------------------------- |
