@@ -77,13 +77,8 @@ Scheduling outing app. Users can set dates that they are available and app will 
 * Create event => event list
 
 
-## Wireframes //TODO
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
-
-### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
+## Wireframes 
+[![Gathr-ly-wireframes.png](https://i.postimg.cc/pX3jGJZ9/Gathr-ly-wireframes.png)](https://postimg.cc/sv911Sby)
 
 ## Schema //TODO
 ### Events
@@ -94,11 +89,23 @@ Scheduling outing app. Users can set dates that they are available and app will 
 | Events Details   | String        |description of the event                        |
 | Events Location  | String        |location of the event                           |
 | Events Time      | DateTime      |when this event happens                         |
-|Author            |Pointer to User|who create this event                           |
-|Participations    |Pointer to User|who participate this event                      |
-|createdAt	       |DateTime	     |date when post is created (default field)       |
-|updatedAt	       |DateTime    	  |date when post is last updated (default field)  |
+| Author            |Pointer to User|who create this event                           |
+| Participants    |Pointer to User|who participate this event                      |
+| createdAt	       |DateTime	     |date when post is created (default field)       |
+| updatedAt	       |DateTime    	  |date when post is last updated (default field)  |
+| datesFree      | DateTime     | date when current user is free; will be used to calcualte event time |
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+<b> List of network requests by screen </b>
+
+  * Event Screen
+    * (Read/GET) Query all events where user is involved in
+    * (Create/POST) Create dates you are free
+  * New event screen
+    * (Create/POST) Create a new event 
+    * (Create/POST) Create event details 
+   * Friends screen
+      * Read/GET) Query all people user is friends with 
+      * (Read/GET) Query all people that match user's name and user's id
+   * Profile Screen
+     * (Read/GET) Query logged in user object
+     * (Update/PUT) Update user profile image
