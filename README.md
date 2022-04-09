@@ -1,4 +1,4 @@
-Unit 8: Group Mileston
+Unit 8: Group Milestone
 ===
 # Gathr.ly
 
